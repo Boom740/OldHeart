@@ -1,10 +1,9 @@
 ---
 type: gdd-mechanics
 version: 0.1
-date: [วันที่]
+date: [14/07/2026]
 ---
-
-# Mechanic Design — [ชื่อ Mechanic]
+# Mechanic Design — [Movement / Action]
 
 ## State Diagram
 
@@ -12,17 +11,40 @@ date: [วันที่]
 stateDiagram-v2
     [*] --> Idle
     Idle --> Move : กด Arrow/WASD
-    Move --> Jump : กด Space
-    Jump --> Fall : ตกจากจุดสูงสุด
-    Fall --> Idle : แตะพื้น
+    Move --> Idle : ปล่อยปุ่ม
+    Move --> Attack : กด Attack button
     Idle --> Attack : กด Attack button
     Attack --> Idle : Animation จบ
 ```
 
 ## Rules
 
-| State | เข้าเงื่อนไข | ออกเงื่อนไข | Note |
-|---|---|---|---|
-| Idle | เริ่มเกม / หยุดเคลื่อนที่ | กด input ใดๆ | Animation loop |
-| Move | กดปุ่มทิศทาง | ปล่อยปุ่ม / กระโดด | Speed = [ค่า] |
-| Jump | กด Space ขณะอยู่พื้น | ถึงจุดสูงสุด | Gravity = [ค่า] |
+| State  | เข้าเงื่อนไข                        | ออกเงื่อนไข | Note           |
+| ------ | ----------------------------------------------- | ---------------------- | -------------- |
+| Idle   | เริ่มเกม / หยุดเคลื่อนที่ | กด input ใดๆ      | Animation loop |
+| Move   | กดปุ่มทิศทาง                        | ปล่อยปุ่ม     | Speed = [40]   |
+| Attack | กด Left mouse                                 | ปล่อย Left mouse | Damage = [100] |
+
+
+
+# Mechanic Design — [Health System]
+
+## State Diagram
+
+```mermaid
+stateDiagram-v2
+    [*] --> Idle
+    Idle --> Move : กด Arrow/WASD
+    Move --> Idle : ปล่อยปุ่ม
+    Move --> Attack : กด Attack button
+    Idle --> Attack : กด Attack button
+    Attack --> Idle : Animation จบ
+```
+
+## Rules
+
+| State  | เข้าเงื่อนไข                        | ออกเงื่อนไข | Note           |
+| ------ | ----------------------------------------------- | ---------------------- | -------------- |
+| Idle   | เริ่มเกม / หยุดเคลื่อนที่ | กด input ใดๆ      | Animation loop |
+| Move   | กดปุ่มทิศทาง                        | ปล่อยปุ่ม     | Speed = [40]   |
+| Attack | กด Left mouse                                 | ปล่อย Left mouse | Damage = [100] |

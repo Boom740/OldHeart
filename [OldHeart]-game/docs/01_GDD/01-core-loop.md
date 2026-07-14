@@ -22,11 +22,11 @@ flowchart LR
 
 ## Controls
 
-| Key       | Action |
-| --------- | ------ |
-| WASD      | Move   |
-| LeftMouse | Attack |
-|           |        |
+| Key       | Action       |
+| --------- | ------------ |
+| WASD      | Move         |
+| LeftMouse | Attack/Shoot |
+|           |              |
 
 ## Win / Lose Condition
 
