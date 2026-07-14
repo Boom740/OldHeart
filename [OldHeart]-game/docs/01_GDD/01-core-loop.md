@@ -3,16 +3,14 @@ type: gdd-core-loop
 version: 0.1
 date: [07/07/2026]
 ---
-# [Sci-fi Upgrade] — Core Loop & Gameplay
+# [Cell Shooter] — Core Loop & Gameplay
 
 ## Core Loop
 
 ```mermaid
 flowchart LR
     A[เริ่มต้น] --> B[ฆ่าศัตรู]
-    B --> C[ได้รับชิ้นส่วน]
-    C --> D[อับเกรดอาวุธ]
-    D --> B
+    B --> A[เปลี่ยนไปด่านถัดไป]
 ```
 
 ## Core Mechanics

@@ -3,7 +3,7 @@ type: gdd-mechanics
 version: 0.1
 date: [14/07/2026]
 ---
-# Mechanic Design — [Movement / Action]
+# Mechanic Design — [Player - Movement / Action]
 
 ## State Diagram
 
@@ -11,6 +11,7 @@ date: [14/07/2026]
 stateDiagram-v2
     [*] --> Idle
     Idle --> Move : กด Arrow/WASD
+    Idle --> Die : เลือดหมด
     Move --> Idle : ปล่อยปุ่ม
     Move --> Attack : กด Attack button
     Idle --> Attack : กด Attack button
@@ -24,3 +25,20 @@ stateDiagram-v2
 | Idle   | เริ่มเกม / หยุดเคลื่อนที่ | กด input ใดๆ      | Animation loop |
 | Move   | กดปุ่มทิศทาง                        | ปล่อยปุ่ม     | Speed = [40]   |
 | Attack | กด Left mouse                                 | ปล่อย Left mouse | Damage = [100] |
+
+
+
+# Mechanic Design — [Enemy - Movement / Action]
+
+## State Diagram
+
+```mermaid
+stateDiagram-v2
+    [*] --> Idle
+    Idle --> Move : ผู้เล่นอยู่ในระยะ
+    Idle --> Die : เลือดหมด
+    Move --> Idle : ผู้เล่นออกนอกระยะการมองเห็น
+    Move --> Attack : ผู้เล่นอยู่ในระยะโจมตี
+    Idle --> Attack : ผู้เล่นอยู่ในระยะโจมตี
+    Attack --> Idle : ผู้เล่นอยู่นอกระยะโจมตี
+```
