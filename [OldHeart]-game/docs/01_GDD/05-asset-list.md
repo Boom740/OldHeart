@@ -13,9 +13,11 @@ date: [วันที่]
 
 ## Audio — SFX
 
-| Asset Name       | คำอธิบาย       | แหล่งที่มา | License   | สถานะ     | รับผิดชอบ |
-| ---------------- | ---------------------- | -------------------- | --------- | -------------- | ------------------ |
-| `sfx_jump.wav` | เสียงกระโดด | [ลิงก์]         | [license] | 🔲 Not Started | [ชื่อ]         |
+| Asset Name        | คำอธิบาย   | แหล่งที่มา                                                     | License | สถานะ     | รับผิดชอบ |
+| ----------------- | ------------------ | ------------------------------------------------------------------------ | ------- | -------------- | ------------------ |
+| `sfx_shoot.wav` | เสียงยิง   | [[Freesound - Laser compilation 04 by cabled_mess]                       | [CC0]   | 🔲 Not Started | [ชื่อ]         |
+| `sfx_walk.wav`  | เสียงเดิน | [Freesound - Footsteps_Boots _GrittyGround(Gravel) wav by Nox_Sound]     | [CC0]   |                |                    |
+| `sfx_run.wav`   | เสียงวิ่ง | [Freesound - Footsteps_Boots_Gritty*Ground* (Gravel) wav by Nox_Sound] | [CC0]   |                |                    |
 
 ## Audio — Music
 
