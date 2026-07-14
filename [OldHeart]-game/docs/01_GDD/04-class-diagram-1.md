@@ -96,3 +96,6 @@ classDiagram
     map_manager --> map
     player --> weapon
 ```
+
+
+.

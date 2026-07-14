@@ -13,7 +13,6 @@ date: [วันที่]
 | [03-mechanics.md](01-mechanics.md)                         | Mechanic flow (state diagram)    | ✅         |
 | [05-asset-list.md](05-asset-list.md)                       | Asset list + asset pipeline flow | ✅         |
 | [04-class-diagram.md](04-class-diagram.md)                 | Class diagram เบื้องต้น | ✅         |
-|                                                         |                                  |            |
 
 ## 🏷️ Naming Convention
 
@@ -38,6 +37,8 @@ date: [วันที่]
 | `bgm_` | Background Music | `bgm_stage_01.mp3`    |
 | `fnt_` | Font             | `fnt_ui_main.ttf`     |
 | `dat_` | Data / Config    | `dat_enemies.json`    |
+
+## .
 
 ## 📁 ใครดูแลส่วนไหน
 

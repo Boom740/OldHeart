@@ -42,3 +42,5 @@ stateDiagram-v2
     Idle --> Attack : ผู้เล่นอยู่ในระยะโจมตี
     Attack --> Idle : ผู้เล่นอยู่นอกระยะโจมตี
 ```
+
+.

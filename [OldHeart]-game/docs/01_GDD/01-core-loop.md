@@ -24,9 +24,10 @@ flowchart LR
 | --------- | ------------ |
 | WASD      | Move         |
 | LeftMouse | Attack/Shoot |
-|           |              |
 
 ## Win / Lose Condition
 
 - **ชนะเมื่อ:** เมื่อเข้าไปขโมยของสำเร็จ
 - **แพ้เมื่อ:** เมื่อตาย
+
+.
