@@ -4,7 +4,7 @@ version: 0.1
 date: [21/07/26]
 team: [OldHeart]
 ---
-# Team Roles & Pipeline Ownership — [ชื่อทีม]
+# Team Roles & Pipeline Ownership — [OldHeart]
 
 ## แบ่งความรับผิดชอบตาม Pipeline (4 คน)
 
