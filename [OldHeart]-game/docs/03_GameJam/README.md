@@ -23,12 +23,12 @@ team: [OldHeart]
 
 ## 📖 เอกสารในโปรเจกต์นี้
 
-| ไฟล์                                          | เนื้อหา                                                        | สถานะ |
-| ------------------------------------------------- | --------------------------------------------------------------------- | ---------- |
-| [00-timeline.md](00-timeline.md)                     | Timeline 48 ชม. + checkpoint + Gantt chart                          | 🔲         |
-| [01-pipeline-checklist.md](01-pipeline-checklist.md) | Must-have / nice-to-have / cut-list ของ pipeline function          | 🔲         |
-| [02-roles.md](02-roles.md)                           | แบ่งความรับผิดชอบตาม module + file ownership rule | 🔲         |
-| [03-workflow-rules.md](03-workflow-rules.md)         | Branching, commit convention, merge conflict rule                     | 🔲         |
+| ไฟล์                                          | เนื้อหา                                               | สถานะ |
+| ------------------------------------------------- | ------------------------------------------------------------ | ---------- |
+| [00-timeline.md](00-timeline.md)                     | Timeline 48 ชม. + checkpoint + Gantt chart                 | ✅         |
+| [01-pipeline-checklist.md](01-pipeline-checklist.md) | Must-have / nice-to-have / cut-list ของ pipeline function | ✅         |
+| [02-roles.md](02-roles.md)                           | แบ่งความรับผิดชอบ + file ownership rule    | ✅         |
+| [03-workflow-rules.md](03-workflow-rules.md)         | Branching, commit convention, merge conflict rule            | ✅         |
 
 ## ⚡ Quick Reference (เปิดดูตอนตัดสินใจด่วน)
 

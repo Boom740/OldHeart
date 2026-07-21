@@ -16,21 +16,21 @@ team: [OldHeart]
 
 | Phase                                       | ช่วง (Hour) | เวลาจริง (Hour 0 = เวลาเริ่ม Jam) | เป้าหมาย / Deliverable                                                                   | สถานะ | เวลาจริงที่เสร็จ |
 | ------------------------------------------- | --------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ---------- | -------------------------------- |
-| 0. Kickoff & Ideation                       | 0–3            | [เวลา] – [เวลา]                           | รู้ theme, brainstorm, ล็อกคอนเซปต์ + core loop 1 บรรทัด                    | 🔲         |                                  |
-| 1. Planning & Setup                         | 3–6            | [เวลา] – [เวลา]                           | GDD one-pager, ตกลง pipeline, ตั้ง repo, แบ่งงาน                                  | 🔲         |                                  |
-| 2. Core Pipeline & Skeleton                 | 6–14           | [เวลา] – [เวลา]                           | Game loop โครงหลักรันได้ (state, input, render ว่างเปล่า)                 | 🔲         |                                  |
-| 3. Core Mechanic                            | 14–24          | [เวลา] – [เวลา]                           | กลไกหลักเล่นได้จริง 1 อย่าง —**Playable Build Checkpoint**        | 🔲         |                                  |
-| 4. Content & Feature Build-out              | 24–34          | [เวลา] – [เวลา]                           | ด่าน/เนื้อหา, UI/HUD, เสียง, กลไกรอง                                      | 🔲         |                                  |
-| 5. 🔒 Feature Freeze                        | ที่ Hour 34  | [เวลา]                                         | **ห้ามเพิ่ม feature ใหม่หลังจุดนี้** ทุกคน merge เข้า main | 🔲         |                                  |
-| 6. Polish & Bugfix                          | 34–40          | [เวลา] – [เวลา]                           | แก้บั๊ก, ปรับ balance, juice/feedback เล็กๆ                                      | 🔲         |                                  |
-| 7. Testing (คนนอกทีมลองเล่น) | 40–44          | [เวลา] – [เวลา]                           | playtest, จด bug ที่เหลือ, แก้เฉพาะตัวที่ critical                       | 🔲         |                                  |
-| 8. Build & Package                          | 44–47          | [เวลา] – [เวลา]                           | สร้าง build จริง, ทดสอบบนเครื่องอื่น, เตรียมหน้า submission | 🔲         |                                  |
-| 9. Buffer & Submit                          | 47–48          | [เวลา] – [เวลา]                           | เผื่อเวลาหน้างาน, ส่งงานก่อนเวลาอย่างน้อย 15 นาที     | 🔲         |                                  |
+| 0. Kickoff & Ideation                       | 0–3            | [0] – [0]                                         | รู้ theme, brainstorm, ล็อกคอนเซปต์ + core loop 1 บรรทัด                    | 🔲         |                                  |
+| 1. Planning & Setup                         | 3–6            | [0] – [0]                                         | GDD one-pager, ตกลง pipeline, ตั้ง repo, แบ่งงาน                                  | 🔲         |                                  |
+| 2. Core Pipeline & Skeleton                 | 6–14           | [0] – [0]                                         | Game loop โครงหลักรันได้ (state, input, render ว่างเปล่า)                 | 🔲         |                                  |
+| 3. Core Mechanic                            | 14–24          | [0] – [0]                                         | กลไกหลักเล่นได้จริง 1 อย่าง —**Playable Build Checkpoint**        | 🔲         |                                  |
+| 4. Content & Feature Build-out              | 24–34          | [0] – [0]                                         | ด่าน/เนื้อหา, UI/HUD, เสียง, กลไกรอง                                      | 🔲         |                                  |
+| 5. 🔒 Feature Freeze                        | ที่ Hour 34  | [0] – [0]                                         | **ห้ามเพิ่ม feature ใหม่หลังจุดนี้** ทุกคน merge เข้า main | 🔲         |                                  |
+| 6. Polish & Bugfix                          | 34–40          | [0] – [0]                                         | แก้บั๊ก, ปรับ balance, juice/feedback เล็กๆ                                      | 🔲         |                                  |
+| 7. Testing (คนนอกทีมลองเล่น) | 40–44          | [0] – [0]                                         | playtest, จด bug ที่เหลือ, แก้เฉพาะตัวที่ critical                       | 🔲         |                                  |
+| 8. Build & Package                          | 44–47          | [0] – [0]                                         | สร้าง build จริง, ทดสอบบนเครื่องอื่น, เตรียมหน้า submission | 🔲         |                                  |
+| 9. Buffer & Submit                          | 47–48          | [0] – [0]                                         | เผื่อเวลาหน้างาน, ส่งงานก่อนเวลาอย่างน้อย 15 นาที     | 🔲         |                                  |
 
 ```mermaid
 gantt
-    title Game Jam 48 ชั่วโมง — [ชื่อทีม]
-    dateFormat  X
+    title Game Jam 48 ชั่วโมง — [OldHeart]
+    dateFormat  x
     axisFormat %s h
     section Plan
     Kickoff & Ideation        :0, 3h
@@ -43,7 +43,7 @@ gantt
     Polish & Bugfix           :34, 6h
     Testing                   :40, 4h
     Build & Package           :44, 3h
-    Buffer & Submit           :47, 1h
+    Buffer & Submit           :48, 1h
 ```
 
 ## กติกา Checkpoint
